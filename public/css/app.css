@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&display=swap');
+
+.navbar{
+  background-color: #1f6f8b;
+}
+.navbar-brand {
+  font-size: 25px;
+}
+
+.navbar-brand, .nav-link {
+  color: #f4f4f2;
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+.navbar-brand:hover, .nav-link:hover{
+  color: #70adb5;
+}
+
+
+
+.body-row {
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  padding-bottom: 5px;
+}
+
+.fa-star{
+  color: yellow;
+}
+.genre-title {
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #90D0E6;
+  margin-bottom: 10px;
+  color: #1c2b2d;
+}
+.btn-default {
+  color: #fff;
+  background-color: #1f6f8b;
+}
+.more-btn, .more-btn:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #1c2b2d;
+}
+
+.body-row{
+  align-content: center;
+}
+
+.genre {
+  
+  color: #1f6f8b;
+}
+.eps-title {
+  color: #fcfcfc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #1f6f8b;
+  margin-bottom: 0;
+  padding-bottom: 6px;
+}
+.eps-container{
+  margin-bottom: 20px;
+  max-width: 660px;
+}
+
+.movie-title {
+  font-weight: bold;
+  color: #1f6f8b;
+}
+
+.list-group-item:nth-child(odd){
+  background-color: #EDFAFF;
+}
+.btn-container{
+  display: flex;
+}
+.back-btn{
+  text-decoration: none;
+  color: #1f6f8b;
+}
+.back-btn:hover, .all-btn:hover{
+  color: #88DEFF;
+  text-decoration: none;
+}
+
+.all-btn{
+  border-radius: 10px;
+  background-color: #1f6f8b;
+  border: none;
+  color: #fcfcfc;
+  margin-left: 10px;
+  align-self: center;
+  padding: 6px;
+  font-size: .8em;
+}
